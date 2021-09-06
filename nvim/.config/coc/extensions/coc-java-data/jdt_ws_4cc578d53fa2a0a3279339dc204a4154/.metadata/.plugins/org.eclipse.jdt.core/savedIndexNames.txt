@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/home/oscar/.dotfiles/nvim/.config/coc/extensions/coc-java-data/jdt_ws_4cc578d53fa2a0a3279339dc204a4154/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index

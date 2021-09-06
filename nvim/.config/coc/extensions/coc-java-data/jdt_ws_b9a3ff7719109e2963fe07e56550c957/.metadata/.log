@@ -1,0 +1,1535 @@
+!SESSION 2021-08-27 12:39:23.539 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:24.871
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.093
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.135
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.137
+!MESSAGE Initializing Java Language Server 1.4.0.202108261357
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.229
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.230
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.233
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.245
+!MESSAGE Wait for AutoBuildOffJob end 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.280
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.289
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:25.349
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.058
+!MESSAGE Workspace initialized in 810ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.125
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.134
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.141
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.145
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.407
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.412
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.422
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:26.424
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:27.004
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:27.685
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:27.899
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:27.901
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:27.907
+!MESSAGE Validated 1. Took 308 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:28.321
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:28.810
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:28.810
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:28.811
+!MESSAGE Validated 1. Took 69 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:44.736
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:45.217
+!MESSAGE Reconciled 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:45.703
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:45.703
+!MESSAGE 2 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:45.704
+!MESSAGE Validated 1. Took 85 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:45.779
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:45.837
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:46.802
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:47.263
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:47.807
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:47.807
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:47.808
+!MESSAGE Validated 1. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:52.427
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:52.834
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:53.148
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:53.155
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:53.318
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:53.319
+!MESSAGE 2 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:53.319
+!MESSAGE Validated 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:54.326
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:54.781
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.265
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.265
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.266
+!MESSAGE Validated 1. Took 83 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.511
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.629
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.636
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.778
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.894
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:55.899
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:56.119
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:56.279
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:56.690
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:57.134
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:57.134
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:39:57.135
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:00.670
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:00.816
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.023
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.044
+!MESSAGE Clearing problems for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.079
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.081
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.101
+!MESSAGE Updated workspace folders in 20 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.110
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.127
+!MESSAGE Updated workspace folders in 14 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.129
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.155
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:01.167
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:37.732
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:38.241
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:38.696
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:38.696
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:41:38.697
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:00.673
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:01.134
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:01.635
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:01.635
+!MESSAGE 2 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:01.636
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:04.914
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:05.370
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:05.858
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:05.858
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:05.859
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:18.313
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:18.335
+!MESSAGE Clearing problems for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:46.421
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:46.840
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:47.336
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:47.336
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:47.338
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:52.641
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:52.654
+!MESSAGE Clearing problems for /Prueba1.java
+!SESSION 2021-08-27 12:42:57.032 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-27 12:42:58.004
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.629
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.816
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.871
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.872
+!MESSAGE Initializing Java Language Server 1.4.0.202108261357
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.908
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.909
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:58.943
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.574
+!MESSAGE Workspace initialized in 661ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.587
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.594
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.597
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.598
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.918
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.922
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.925
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:42:59.931
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:00.451
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:01.008
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:01.009
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:01.014
+!MESSAGE Validated 1. Took 111 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.239
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.242
+!MESSAGE Clearing problems for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.284
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.287
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.313
+!MESSAGE Updated workspace folders in 25 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.320
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.337
+!MESSAGE Updated workspace folders in 15 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.339
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.366
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:43:18.379
+!MESSAGE >> registerWatchers'
+!SESSION 2021-08-27 12:44:23.109 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_b9a3ff7719109e2963fe07e56550c957
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-27 12:44:23.962
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.412
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.583
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.625
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.626
+!MESSAGE Initializing Java Language Server 1.4.0.202108261357
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.654
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.655
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:24.690
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.294
+!MESSAGE Workspace initialized in 635ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.306
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.316
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.321
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.323
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.652
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.657
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.660
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:25.662
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:26.180
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:26.648
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:26.649
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:26.655
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:30.619
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:44:30.699
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:45:15.770
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:45:15.919
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:39.745
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:40.245
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:40.644
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:40.715
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:40.760
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:40.760
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:40.761
+!MESSAGE Validated 1. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:54.790
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:55.273
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:55.778
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:55.778
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:55.787
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:55.787
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:55.788
+!MESSAGE Validated 2. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:58.289
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:58.313
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:59.092
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:59.267
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:49:59.466
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:01.074
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:01.221
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:01.646
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:01.832
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:02.031
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:02.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.222
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.401
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.557
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.570
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.859
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.918
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:03.926
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.304
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.304
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.314
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.314
+!MESSAGE 2 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.315
+!MESSAGE Validated 2. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.719
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:04.929
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.272
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.295
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.383
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.883
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.883
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.889
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.889
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:05.889
+!MESSAGE Validated 2. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:06.347
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:06.804
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:07.084
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:07.478
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:07.866
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:07.972
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:08.184
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:08.492
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:08.948
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:09.393
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:09.393
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:09.398
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:09.398
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:09.399
+!MESSAGE Validated 2. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:11.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:11.723
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:11.851
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:11.987
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:11.989
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:12.309
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:12.376
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:12.506
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:12.638
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:13.044
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:13.535
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:13.535
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:13.540
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:13.540
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:50:13.540
+!MESSAGE Validated 2. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:35.069
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:35.547
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:36.033
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:36.034
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:36.040
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:36.040
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:51:36.041
+!MESSAGE Validated 2. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:15.860
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:16.273
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:16.704
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:16.704
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:16.710
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:16.710
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 12:52:16.710
+!MESSAGE Validated 2. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:10.262
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:10.274
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:11.031
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:11.213
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:11.374
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:11.559
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:11.731
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:11.905
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:12.103
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:12.290
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:12.516
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:16.750
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:16.775
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:17.178
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:17.592
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:17.593
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:17.601
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:17.601
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:17.601
+!MESSAGE Validated 2. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:22.674
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:22.794
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.128
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.602
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.603
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.615
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.616
+!MESSAGE 4 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.616
+!MESSAGE Validated 2. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.936
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.973
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:23.975
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.220
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.331
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.427
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.441
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.899
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.899
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.910
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.910
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.911
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:24.952
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:25.636
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:26.315
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:26.833
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:27.072
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:27.245
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:27.418
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:29.616
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:30.981
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.435
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.748
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.789
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.899
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.899
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.908
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.909
+!MESSAGE 3 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:31.909
+!MESSAGE Validated 2. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:32.527
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:35.741
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:36.194
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:36.501
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:36.618
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:36.913
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:37.375
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:37.376
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:37.383
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:37.383
+!MESSAGE 4 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:37.383
+!MESSAGE Validated 2. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:38.324
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:38.361
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:38.362
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:38.364
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:38.816
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.284
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.284
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.295
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.296
+!MESSAGE 4 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.296
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.351
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.367
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.369
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:39.821
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:40.283
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:40.283
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:40.292
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:40.292
+!MESSAGE 4 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:40.292
+!MESSAGE Validated 2. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:40.645
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:41.161
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:41.665
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:42.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:42.114
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:42.566
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.026
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.026
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.033
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.034
+!MESSAGE 4 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.034
+!MESSAGE Validated 2. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.053
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.506
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:43.788
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.048
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.502
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.935
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.936
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.942
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.942
+!MESSAGE 3 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:44.942
+!MESSAGE Validated 2. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:45.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:45.727
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.190
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.191
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.196
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.197
+!MESSAGE 3 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.197
+!MESSAGE Validated 2. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.398
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:46.850
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:47.311
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:47.311
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:47.315
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:47.316
+!MESSAGE 1 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:47.316
+!MESSAGE Validated 2. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:49.421
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:49.553
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:49.557
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:49.824
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:50.097
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:50.550
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.011
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.011
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.015
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.016
+!MESSAGE 2 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.016
+!MESSAGE Validated 2. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.067
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.252
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.655
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.825
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:51.828
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:52.014
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:52.291
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:52.694
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:52.837
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:53.289
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:53.525
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:53.813
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:53.815
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:53.977
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:54.386
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:54.386
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:54.390
+!MESSAGE begin problem for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:54.390
+!MESSAGE 2 problems reported for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:06:54.391
+!MESSAGE Validated 2. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:16:35.731
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:16:35.746
+!MESSAGE Clearing problems for /p2.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:16:39.433
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:16:39.447
+!MESSAGE Clearing problems for /Prueba1.java

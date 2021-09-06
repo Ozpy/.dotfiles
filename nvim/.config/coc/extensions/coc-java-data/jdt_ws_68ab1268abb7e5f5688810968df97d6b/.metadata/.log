@@ -1,0 +1,515 @@
+!SESSION 2021-08-27 16:19:45.591 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:46.821
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.039
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.081
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.083
+!MESSAGE Initializing Java Language Server 1.4.0.202108261357
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.161
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.161
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.165
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.177
+!MESSAGE Wait for AutoBuildOffJob end 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.213
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.213
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:47.271
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.006
+!MESSAGE Workspace initialized in 827ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.058
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.067
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.071
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.073
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.265
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.270
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.273
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.275
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:48.835
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:49.721
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:49.722
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:19:49.726
+!MESSAGE Validated 1. Took 441 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.651
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.668
+!MESSAGE Clearing problems for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.700
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.703
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.733
+!MESSAGE Updated workspace folders in 29 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.741
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.756
+!MESSAGE Updated workspace folders in 13 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.757
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.786
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:14.798
+!MESSAGE >> registerWatchers'
+!SESSION 2021-08-27 16:27:47.898 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-27 16:27:48.978
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:49.642
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:49.912
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:49.976
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:49.977
+!MESSAGE Initializing Java Language Server 1.4.0.202108261357
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.047
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.049
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.150
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.965
+!MESSAGE Workspace initialized in 907ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.969
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.980
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.984
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:50.986
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.595
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.683
+!MESSAGE begin problem for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.684
+!MESSAGE 1 problems reported for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.691
+!MESSAGE Validated 1. Took 88 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.706
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.709
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.712
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:27:51.713
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.664
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.670
+!MESSAGE Clearing problems for /Prueba1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.722
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.724
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.741
+!MESSAGE Updated workspace folders in 17 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.751
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.765
+!MESSAGE Updated workspace folders in 11 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.767
+!MESSAGE Projects:
+jdt.ls-java-project: /home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk-amd64  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk-amd64
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk-amd64
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk-amd64
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+  Java Platform, Standard Edition 14: -
+  Java Platform, Standard Edition 15: -
+  Java Platform, Standard Edition 16: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.794
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-27 16:28:00.806
+!MESSAGE >> registerWatchers'

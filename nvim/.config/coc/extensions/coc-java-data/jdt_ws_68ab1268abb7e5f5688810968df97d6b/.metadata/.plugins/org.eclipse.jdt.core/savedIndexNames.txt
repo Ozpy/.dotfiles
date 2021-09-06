@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/home/oscar/.config/coc/extensions/coc-java-data/jdt_ws_68ab1268abb7e5f5688810968df97d6b/.metadata/.plugins/org.eclipse.jdt.core
+646308851.index
