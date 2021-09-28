@@ -1,0 +1,2 @@
+"---------------NerdCommenter---------------
+filetype plugin on
