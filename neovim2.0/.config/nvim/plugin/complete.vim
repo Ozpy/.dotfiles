@@ -12,4 +12,7 @@ set shortmess+=c
 
 " possible value: 'UltiSnips', 'Neosnippet', 'vim-vsnip', 'snippets.nvim'
 let g:completion_enable_snippet = 'UltiSnips'
-
+"snippets
+let g:UltiSnipsExpandTrigger="<C-space>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"

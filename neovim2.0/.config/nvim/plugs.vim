@@ -4,6 +4,7 @@ Plug 'morhetz/gruvbox'
 "---------------IDE---------------
 "Lsp
 Plug 'neovim/nvim-lspconfig'
+Plug 'kabouzeid/nvim-lspinstall'
 "Completion
 Plug 'nvim-lua/completion-nvim'
 "Easymotion
@@ -43,5 +44,11 @@ Plug '0x84/vim-coderunner'
 Plug 'tpope/vim-surround'
 "Vim begood para mejorar en la velocidad de vim
 Plug 'ThePrimeagen/vim-be-good'
+"treesitter
+Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+"utilsnippets complete
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 call plug#end()
 

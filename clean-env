@@ -1,0 +1,6 @@
+#!/bin/bash
+for carpeta in $(ls -d */)
+do
+  echo Removing $carpeta
+  stow -D $carpeta
+done
