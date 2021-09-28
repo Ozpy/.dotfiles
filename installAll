@@ -1,0 +1,9 @@
+#!/bin/bash
+for carpeta in $(ls -d */)
+do
+  echo desinstalando $carpeta
+  stow -D $carpeta
+  echo Instalando $carpeta
+  stow  $carpeta
+done
+
