@@ -4,9 +4,24 @@ Plug 'morhetz/gruvbox'
 "---------------IDE---------------
 "Lsp
 Plug 'neovim/nvim-lspconfig'
-Plug 'kabouzeid/nvim-lspinstall'
-"Completion
-Plug 'nvim-lua/completion-nvim'
+Plug 'williamboman/nvim-lsp-installer'
+"Cmp
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+" For vsnip user.
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'onsails/lspkind-nvim'
+"For luasnip user.
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+"For ultisnips user.
+Plug 'SirVer/ultisnips'
+Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+"Snippets
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
 "Easymotion
 Plug 'easymotion/vim-easymotion'
 "NerdTree
@@ -47,8 +62,8 @@ Plug 'ThePrimeagen/vim-be-good'
 "treesitter
 Plug 'nvim-treesitter/playground'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
-"utilsnippets complete
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Telescope
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 

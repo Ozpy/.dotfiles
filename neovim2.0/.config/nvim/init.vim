@@ -35,6 +35,9 @@ set backspace=start,eol,indent
 "Finding files - Search down into subfolders
 set path+=**
 set cursorline
+"The primer
+set signcolumn=yes "Extra column
+set colorcolumn=80 "column at 80 
 
 "Copiar y pegar
 "--------------------------------------------------------------------
@@ -43,8 +46,6 @@ func! GetSelectedText()
     let result = getreg("x")
     return result
 endfunc
-noremap <C-C> :call system('clip.exe', GetSelectedText())<CR>
-noremap <C-X> :call system('clip.exe', GetSelectedText())<CR>gvx
 
 "Config tabs
 nmap <Leader>L :bnext<CR>

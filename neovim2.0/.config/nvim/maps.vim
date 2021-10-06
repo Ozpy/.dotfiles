@@ -4,8 +4,8 @@ let mapleader=" "
 nnoremap Y y$
 
 "Keeping it centered
-nnoremap n nnzzzv
-nnoremap N nnzzzv
+nnoremap n nzzzv
+nnoremap N Nzzzv
 nnoremap J mzJ'z
 
 "Undo break points
@@ -26,5 +26,4 @@ inoremap <C-k> <esc>:m .-2<CR>==a
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
 
-"basics
-inoremap <M-a> <ESC> 
+nnoremap <F2> :w<CR>:so%<CR>
