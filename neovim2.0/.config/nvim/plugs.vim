@@ -4,24 +4,11 @@ Plug 'morhetz/gruvbox'
 "---------------IDE---------------
 "Lsp
 Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
-"Cmp
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-" For vsnip user.
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-Plug 'onsails/lspkind-nvim'
-"For luasnip user.
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
-"For ultisnips user.
+"comp
+Plug 'nvim-lua/completion-nvim'
+Plug 'norcalli/snippets.nvim'
 Plug 'SirVer/ultisnips'
-Plug 'quangnguyen30192/cmp-nvim-ultisnips'
-"Snippets
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'honza/vim-snippets'
 "Easymotion
 Plug 'easymotion/vim-easymotion'
 "NerdTree
