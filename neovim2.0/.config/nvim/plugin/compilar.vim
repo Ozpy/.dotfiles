@@ -17,14 +17,14 @@ exec "FloatermNew powershell.exe java %:r"
 elseif &filetype == 'sh'
 exec "!time bash %"
 elseif &filetype == 'python'
-"exec 
-""!time python2.7 %"
 exec "FloatermNew powershell.exe python %"
 elseif &filetype == 'html'
 exec "!firefox % &"
 elseif &filetype == 'go'
 exec "!go build %<"
 exec "!time go run %"
+elseif &filetype == 'javascript'
+exec "FloatermNew node %" 
 elseif &filetype == 'mkd'
 exec "!~/.vim/markdown.pl % > %.html &"
 exec "!firefox %.html &"
