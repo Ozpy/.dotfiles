@@ -4,6 +4,8 @@ Plug 'morhetz/gruvbox'
 "---------------IDE---------------
 "Lsp
 Plug 'neovim/nvim-lspconfig'
+"installer
+Plug 'kabouzeid/nvim-lspinstall'
 "comp
 Plug 'nvim-lua/completion-nvim'
 Plug 'norcalli/snippets.nvim'
