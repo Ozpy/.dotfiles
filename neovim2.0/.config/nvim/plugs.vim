@@ -3,22 +3,22 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 "---------------IDE---------------
 "Lsp
-Plug 'neovim/nvim-lspconfig'
+"Plug 'neovim/nvim-lspconfig'
 "installer
-Plug 'kabouzeid/nvim-lspinstall'
+"Plug 'kabouzeid/nvim-lspinstall'
 "Completado
-Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/nvim-cmp'
-
-" For vsnip user.
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-" For ultisnips user.
-Plug 'SirVer/ultisnips'
-Plug 'quangnguyen30192/cmp-nvim-ultisnips'
-"Easymotion
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'hrsh7th/cmp-nvim-lsp'
+"Plug 'hrsh7th/cmp-buffer'
+"Plug 'hrsh7th/nvim-cmp'
+ "For vsnip user.
+"Plug 'hrsh7th/cmp-vsnip'
+"Plug 'hrsh7th/vim-vsnip'
+ "For ultisnips user.
+"Plug 'SirVer/ultisnips'
+"Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+""Easymotion
 Plug 'easymotion/vim-easymotion'
 "NerdTree
 Plug 'scrooloose/nerdtree'
