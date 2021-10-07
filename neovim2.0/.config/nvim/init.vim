@@ -4,6 +4,7 @@ runtime ./plugs.vim"}}}
 
 "---------------Configuraciones de vim --------{{{
 let mapleader=" "
+set nocompatible | filetype indent plugin on | syn on
 syntax enable
 set wrap lbr nolist "Config word wrapping 
 set noic nohls is "config search 

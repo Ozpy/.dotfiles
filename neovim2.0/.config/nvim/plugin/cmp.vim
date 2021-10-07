@@ -1,32 +1,25 @@
-  "Use completion-nvim in every buffer
-  autocmd BufEnter * lua require'completion'.on_attach()
-" Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+set completeopt=menu,menuone,noselect
+lua <<EOF
+  local cmp = require'cmp'
+  cmp.setup({
+  snippet = {
+    expand = function(args)
+    vim.fn["UltiSnips#Anon"](args.body)
+  end,
+  },
+      mapping = {
+        ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+        ['<C-f>'] = cmp.mapping.scroll_docs(4),
+        ['<C-Space>'] = cmp.mapping.complete(),
+        ['<C-e>'] = cmp.mapping.close(),
+        ['<CR>'] = cmp.mapping.confirm({ select = true }),
+        },
+      sources = {
+        { name = 'nvim_lsp' },
+        { name = 'ultisnips' },
 
-" Set completeopt to have a better completion experience
-set completeopt=menuone,noinsert "",noselect
-
-" Avoid showing message extra message when using completion
-set shortmess+=c
-
-"let g:completion_enable_auto_popup = 0
-"
-" possible value: 'UltiSnips', 'Neosnippet', 'vim-vsnip', 'snippets.nvim'
-let g:completion_enable_snippet = 'UltiSnips'
-
-let g:UltiSnipsExpandTrigger="<c-n"
-let g:UltiSnipsJumpForwardTrigger="<c-l>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-"map <c-p> to manually trigger completion
-imap <silent> <c-p> <Plug>(completion_trigger)
-
-imap <tab> <Plug>(completion_smart_tab)
-imap <s-tab> <Plug>(completion_smart_s_tab)
-
-"let g:completion_enable_auto_hover = 0
-let g:completion_enable_auto_signature = 0
-" possible value: "length", "alphabet", "none"
-let g:completion_sorting = "length"
-
+        { name = 'buffer' },
+        }
+      })
+    -- Setup lspconfig.
+EOF

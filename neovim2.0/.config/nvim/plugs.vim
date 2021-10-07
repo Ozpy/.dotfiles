@@ -6,11 +6,18 @@ Plug 'morhetz/gruvbox'
 Plug 'neovim/nvim-lspconfig'
 "installer
 Plug 'kabouzeid/nvim-lspinstall'
-"comp
-Plug 'nvim-lua/completion-nvim'
-Plug 'norcalli/snippets.nvim'
+"Completado
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/nvim-cmp'
+
+" For vsnip user.
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
+" For ultisnips user.
 Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 "Easymotion
 Plug 'easymotion/vim-easymotion'
 "NerdTree
@@ -55,4 +62,3 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
-
