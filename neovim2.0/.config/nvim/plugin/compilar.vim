@@ -30,3 +30,5 @@ exec "!~/.vim/markdown.pl % > %.html &"
 exec "!firefox %.html &"
 endif
 endfunc
+"-------CodeRunner
+nnoremap <leader>rr :w<CR>:RunCode<CR>
