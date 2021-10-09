@@ -27,3 +27,7 @@ nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
 
 nnoremap <F2> :w<CR>:so%<CR>
+"------Basics--------
+nnoremap <leader>q :q<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>wq :wq<CR>
