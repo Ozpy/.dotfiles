@@ -51,7 +51,5 @@ endfunc
 "Config tabs
 nmap <Leader>L :bnext<CR>
 nmap <Leader>H :bprevious<CR>
-nmap <Leader>l gt<CR>
-nmap <Leader>h gT<CR>"}}}
-
+"}}}
 

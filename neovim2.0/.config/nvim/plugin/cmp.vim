@@ -1,4 +1,8 @@
 set completeopt=menu,menuone,noselect
+"-------Sinppets----------------
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+noremap <leader>x :UltiSnipsEdit<CR>
 
 lua <<EOF
 local cmp = require'cmp'

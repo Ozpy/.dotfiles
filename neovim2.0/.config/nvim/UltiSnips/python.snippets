@@ -1,0 +1,9 @@
+snippet initTk "Ventana basica de Tk" b
+from tkinter import *
+root = Tk()
+root.title("${1:Title}")
+root.geometry('${2:X}x${3:Y}')
+${4:Code}
+
+root.mainloop()
+endsnippet
