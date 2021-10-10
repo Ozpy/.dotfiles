@@ -14,7 +14,7 @@ set mouse=a
 set numberwidth=1
 set clipboard=unnamed
 set ruler
-set sw=2
+set sw=2 ts=1 
 set relativenumber
 set autoindent cindent smartindent showmatch
 set incsearch

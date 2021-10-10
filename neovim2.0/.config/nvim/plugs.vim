@@ -14,6 +14,7 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'honza/vim-snippets'
 "Tabnine
 Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
+Plug 'onsails/lspkind-nvim'
 " For vsnip user.
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
@@ -53,6 +54,8 @@ Plug 'vim-syntastic/syntastic', {'for': 'python'}
 Plug 'metakirby5/codi.vim'
 "Runcode (ejecuta pedazos de codigo)
 Plug '0x84/vim-coderunner'
+"AutoImport python
+Plug 'mgedmin/python-imports.vim'
 "surround encerrar cososas como palabras o lineas
 Plug 'tpope/vim-surround'
 "Vim begood para mejorar en la velocidad de vim
