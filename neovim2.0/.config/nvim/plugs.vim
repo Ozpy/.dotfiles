@@ -11,7 +11,9 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
-
+Plug 'honza/vim-snippets'
+"Tabnine
+Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 " For vsnip user.
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
@@ -61,4 +63,6 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 "Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+"Guias de identado
+Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()
