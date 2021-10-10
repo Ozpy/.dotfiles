@@ -1,5 +1,5 @@
-let g:coc_global_extensions = ['coc-java','coc-json', 'coc-git','coc-pyright','coc-tsserver','coc-snippets']
-",'coc-tabnine' 
+let g:coc_global_extensions = ['coc-java','coc-json', 'coc-git','coc-pyright','coc-tsserver','coc-snippets','coc-tabnine' ]
+"
 "let g:coc_global_extensions = []
 
 " TextEdit might fail if hidden is not set.
@@ -34,6 +34,7 @@ set cmdheight=2
 
 " Use <c-space> to trigger completion.
 if has('nvim')
+  inoremap <silent><expr> <c-n> coc#refresh()
   inoremap <silent><expr> <c-space> coc#refresh()
 else
   inoremap <silent><expr> <c-@> coc#refresh()
@@ -41,8 +42,8 @@ endif
 
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+"inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+                              "\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
