@@ -10,9 +10,7 @@ elseif &filetype == 'cpp'
 exec "!g++ % -o %<"
 exec "!time ./%<"
 elseif &filetype == 'java'
-exec "FloatermNew powershell.exe  echo javac %" 
-exec "!time "
-exec "FloatermNew powershell.exe java %:r" 
+exec "!javac % && java %:r" 
 elseif &filetype == 'sh'
 exec "!time bash %"
 elseif &filetype == 'python'
@@ -41,11 +39,7 @@ elseif &filetype == 'cpp'
 exec "!g++ % -o %<"
 exec "!time ./%<"
 elseif &filetype == 'java'
-exec "FloatermNew powershell.exe  echo javac %" 
-exec "!time "
-exec "FloatermNew powershell.exe java %:r" 
-""exec 
-""FloatermNew powershell.exe java -cp %:p:h %:t:r" 
+exec "FloatermNew javac % && clear && echo Ejecutando... && java %:r" 
 elseif &filetype == 'sh'
 exec "!time bash %"
 elseif &filetype == 'python'

@@ -25,7 +25,3 @@ inoremap <C-j> <esc>:m .+1<CR>==a
 inoremap <C-k> <esc>:m .-2<CR>==a
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
-
-"basics
-map <A-j> <down> 
-inoremap <A-a> <esc> 
