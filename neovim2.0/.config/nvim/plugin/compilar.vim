@@ -58,4 +58,4 @@ endif
 endfunc
 
 "---------F6---------
-nnoremap <space>cc :Codi<CR>
+nnoremap <space>cd :Codi<CR>

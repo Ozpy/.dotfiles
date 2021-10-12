@@ -10,7 +10,7 @@ nnoremap <leader>wr :lua vim.lsp.buf.remove_workspace_folder()<CR>
 nnoremap <leader>wl :lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>
 nnoremap <leader>D :lua vim.lsp.buf.type_definition()<CR>
 nnoremap <leader>rn :lua vim.lsp.buf.rename()<CR>
-nnoremap <leader>ca :lua vim.lsp.buf.code_action()<CR>
+nnoremap <leader>cf :lua vim.lsp.buf.code_action()<CR>
 nnoremap gr :lua vim.lsp.buf.references()<CR>
 nnoremap <leader>e :lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 nnoremap [d :lua vim.lsp.diagnostic.goto_prev()<CR>

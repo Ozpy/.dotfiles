@@ -68,4 +68,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 "Guias de identado
 Plug 'nathanaelkane/vim-indent-guides'
+"Conda python
+"Plug 'cjrh/vim-conda'
 call plug#end()

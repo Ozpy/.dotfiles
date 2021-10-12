@@ -2,7 +2,10 @@ set completeopt=menu,menuone,noselect
 "-------Sinppets----------------
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+"let g:UltiSnipsExpandTrigger="<c-z>"
+
 noremap <leader>x :UltiSnipsEdit<CR>
+
 
 lua <<EOF
 local cmp = require'cmp'
@@ -31,10 +34,7 @@ mapping = {
   ['<C-f>'] = cmp.mapping.scroll_docs(4),
   ['<C-Space>'] = cmp.mapping.complete(),
   ['<C-e>'] = cmp.mapping.close(),
-  ['<CR>'] = cmp.mapping.confirm({
-  behavior = cmp.ConfirmBehavior.Replace,
-  select = true,
-  })
+  ['<CR>'] = cmp.mapping.confirm()
 },
       sources = {
         { name = 'nvim_lsp' },
