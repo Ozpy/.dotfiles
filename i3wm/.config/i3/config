@@ -88,12 +88,17 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+#Workspaces
+set $WS1 "1: Terminals "
+set $WS2 "2: Browser "
+set $WS3 "3: Notes "
+set $WS4 "4: ? "
 
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
+bindsym $mod+1 workspace $WS1
+bindsym $mod+2 workspace $WS2
+bindsym $mod+3 workspace $WS3
+bindsym $mod+4 workspace $WS4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
@@ -102,10 +107,10 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+1 move container to workspace $WS1
+bindsym $mod+Shift+2 move container to workspace $WS2
+bindsym $mod+Shift+3 move container to workspace $WS3
+bindsym $mod+Shift+4 move container to workspace $WS4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
@@ -128,20 +133,21 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 3 px or 3 ppt
+        bindsym j resize grow height 3 px or 3 ppt
+        bindsym k resize shrink height 3 px or 3 ppt
+        bindsym l resize grow width 3 px or 3 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 3 px or 3 ppt
+        bindsym Down resize grow height 3 px or 3 ppt
+        bindsym Up resize shrink height 3 px or 3 ppt
+        bindsym Right resize grow width 3 px or 3 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -151,3 +157,20 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+#Keybindings
+bindsym $mod+shift+x exec i3lock
+#Feh Wallpaer
+exec_always feh --bg-scale ~/Pictures/wallpapers/wallpaper1.jpg
+#Auto start an app in a workspace
+assign [class="Google-chrome"] $WS2
+assign [class="notion-snap"] $WS3
