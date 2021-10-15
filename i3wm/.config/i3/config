@@ -8,9 +8,16 @@ set $WS1 "1: Terminals "
 set $WS2 "2: Browser "
 set $WS3 "3: Notes "
 set $WS4 "4: ? "
+set $WS5 "5: ? "
+set $WS6 "6: ? "
+set $WS7 "7: ? "
+set $WS8 "8: ? "
+set $WS9 "9: ? "
+set $WS10 "10: Social  "
+
 
 # set font
-font pango: Noto Sans 8
+font pango: Noto Sans 10
 
 # Use Mouse+$super to drag floating windows to their wanted position
 floating_modifier $super
@@ -25,15 +32,26 @@ exec --no-startup-id compton -b
 bindsym $super+Return exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
-bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
-bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+#bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
+#bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+set $bg "#444477"
+bindsym $mod+d exec rofi -theme .config/i3/material -font "Cantarell 12" -show run
+bindsym $mod+F2 exec dmenu_run -i -fn "Cantarell-14" -nf '#ffb52a' -sb '#ffb52a' -sf '#222'
+bindsym $mod+shift+p exec rofi -theme .config/i3/material -font "Cantarell 12" -show window
 
 # common apps keybinds
 bindsym Print exec scrot 'Cheese_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'
-bindsym $super+e exec i3-msg exit
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 bindsym $super+Shift+w exec firefox
 bindsym $super+Shift+f exec thunar;workspace 3;focus
-bindsym $super+Shift+g exec geany
 
 #change volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
@@ -75,6 +93,12 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+
 # split in horizontal orientation
 bindsym $super+semicolon split h
 
@@ -84,8 +108,6 @@ bindsym $super+v split v
 # enter fullscreen mode for the focused container
 bindsym $super+f fullscreen toggle
 
-# change container layout split
-bindsym $super+s layout toggle split
 
 # toggle tiling / floating
 bindsym $super+space floating toggle
@@ -103,33 +125,30 @@ bindsym $mod+1 workspace $WS1
 bindsym $mod+2 workspace $WS2
 bindsym $mod+3 workspace $WS3
 bindsym $mod+4 workspace $WS4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+5 workspace $WS5
+bindsym $mod+6 workspace $WS6
+bindsym $mod+7 workspace $WS7
+bindsym $mod+8 workspace $WS8
+bindsym $mod+9 workspace $WS9
+bindsym $mod+0 workspace $WS10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $WS1
 bindsym $mod+Shift+2 move container to workspace $WS2
 bindsym $mod+Shift+3 move container to workspace $WS3
 bindsym $mod+Shift+4 move container to workspace $WS4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+5 move container to workspace $WS5
+bindsym $mod+Shift+6 move container to workspace $WS6
+bindsym $mod+Shift+7 move container to workspace $WS7
+bindsym $mod+Shift+8 move container to workspace $WS8
+bindsym $mod+Shift+9 move container to workspace $WS9
+bindsym $mod+Shift+0 move container to workspace $WS10
 
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $super+Shift+r restart
 
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
-
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
@@ -155,37 +174,61 @@ bindsym $super+r mode "resize"
 
 # panel
 bar {
-        position top
-        colors {
-        background #2f343f
-        statusline #2f343f
-        separator #4b5262
-
-        # colour of border, background, and text
-        focused_workspace       #2f343f #bf616a #d8dee8
-        active_workspace        #2f343f #2f343f #d8dee8
-        inactive_workspace      #2f343f #2f343f #d8dee8
-        urgent_workspacei       #2f343f #ebcb8b #2fR43f
-  }
-        status_command i3status
+  position top
+#i3bar_command i3bar -t
+    status_command i3blocks
+    colors {
+#background #222222ff
+      background #222222
+        statusline #eeeeee
+        separator #666666
+#                           border  backgr. text
+        focused_workspace  #444444 #444444 #ffb52a
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #333333 #222222 #888888
+        urgent_workspace   #2f343a #900000 #ffffff
+    }
 }
 
-# window rules, you can find the window class using xprop
-for_window [class=".*"] border pixel 4
-assign [class=URxvt] 1
-assign [class=Firefox|Transmission-gtk] 2
-assign [class=Thunar|File-roller] 3
-assign [class=Geany|Evince|Gucharmap|Soffice|libreoffice*] 4
-assign [class=Audacity|Vlc|mpv|Ghb|Xfburn|Gimp*|Inkscape] 5
-assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|Pavucontrol|Exo-helper*|Lxrandr|Arandr] 6
-for_window [class=Viewnior|feh|Audacious|File-roller|Lxappearance|Lxtask|Pavucontrol] floating enable
-for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
-for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
 
 # colour of border, background, text, indicator, and child_border
-client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
+#client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
+client.focused              #bf7500 #bf7500 #bf7500 #ffe570
 client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.background           #2f343f
+
+# captura
+#bindsym Print exec spectacle
+#bindsym Print exec gnome-screenshot -i
+#switch workspace
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+#ara posam es gaps de sa pantalla
+gaps inner 4
+gaps outer 3
+smart_gaps on
+smart_borders on
+##
+bindsym $mod+Shift+a gaps inner all minus 2; gaps outer all minus 2;
+bindsym $mod+c exec /home/gerry/.config/i3/webcam.sh
+#bindsym --release Caps_Lock exec pkill -SIGRTMIN+2 i3blocks
+
+#exec_always feh --bg-fill "/home/gerry/.config/i3/cala ratjada.jpg"
+exec_always /home/gerry/.config/i3/monitors.sh auto
+exec_always /home/gerry/.config/i3/wallpaper.sh
+#exec_always /home/gerry/.config/i3/polybar.sh
+#exec_always compton
+exec picom
+exec dunst
+exec_always nm-applet
+#exec redshift-gtk
+
+for_window [class="^.*"] border pixel 3
+new_window pixel 3
+
+assign [class="Google-chrome"] $WS2
+assign [class="notion-snap"] $WS3
+assign [class="discord"] $WS10
