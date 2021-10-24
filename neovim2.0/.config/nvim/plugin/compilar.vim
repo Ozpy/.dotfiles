@@ -21,7 +21,7 @@ elseif &filetype == 'go'
 exec "!go build %<"
 exec "!time go run %"
 elseif &filetype == 'javascript'
-exec "node %" 
+exec "!node %" 
 elseif &filetype == 'mkd'
 exec "!~/.vim/markdown.pl % > %.html &"
 exec "!firefox %.html &"

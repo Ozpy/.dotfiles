@@ -16,7 +16,7 @@ local source_mapping = {
 	nvim_lua = "[Lua]",
 	cmp_tabnine = "[TN]",
 	path = "[Path]",
-	ultisnips = "[SP]",
+	ultisnips = "[USP]",
         }
 
 cmp.setup({
@@ -42,6 +42,7 @@ mapping = {
         { name = 'cmp_tabnine' },
         { name = 'buffer' },
         },
+
       formatting = {
 		format = function(entry, vim_item)
 			vim_item.kind = lspkind.presets.default[vim_item.kind]
