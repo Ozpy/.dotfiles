@@ -15,5 +15,5 @@ nnoremap gr :lua vim.lsp.buf.references()<CR>
 nnoremap <leader>e :lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 nnoremap [d :lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap ]d :lua vim.lsp.diagnostic.goto_next()<CR>
-nnoremap <leader>q :lua vim.lsp.diagnostic.set_loclist()<CR>
+nnoremap <leader>lq :lua vim.lsp.diagnostic.set_loclist()<CR>
 nnoremap <leader>f :lua vim.lsp.buf.formatting()<CR>

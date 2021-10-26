@@ -13,7 +13,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'honza/vim-snippets'
 "Tabnine
-Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
+"Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 Plug 'onsails/lspkind-nvim'
 " For vsnip user.
 Plug 'hrsh7th/cmp-vsnip'
@@ -70,4 +70,11 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nathanaelkane/vim-indent-guides'
 "Conda python
 "Plug 'cjrh/vim-conda'
+Plug 'takac/vim-hardtime'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'godlygeek/tabular', {'for': 'markdown'}
+Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
 call plug#end()
+let g:hardtime_default_on = 1
+let g:hardtime_maxcount = 3
