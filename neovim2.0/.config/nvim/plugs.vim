@@ -12,6 +12,12 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'honza/vim-snippets'
+  "React Native code snippets
+  Plug 'tellijo/vim-react-native-snippets'
+  "ES2015 code snippets
+  Plug 'epilande/vim-es2015-snippets'
+  "React code snippets (Optional)
+  Plug 'epilande/vim-react-snippets'
 "Tabnine
 "Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 Plug 'onsails/lspkind-nvim'
@@ -39,7 +45,7 @@ Plug 'preservim/nerdcommenter'
 "Floaterm: abrir consola en nvim
 Plug 'voldikss/vim-floaterm'
 "Bracey
-Plug 'turbio/bracey.vim'
+Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 "Fugitive (Git)
 Plug 'tpope/vim-fugitive'
 "Autoclose

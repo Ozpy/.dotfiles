@@ -58,5 +58,4 @@ mapping = {
 		end
 	},
       })
-    --Setup lspconfig.
 EOF
